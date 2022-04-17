@@ -1,0 +1,37 @@
+/* global reset  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* adding fonts to the entire body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* styling the navbar */
+nav {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    color: aquamarine;
+    padding: 15px 50px;
+    justify-content: space-between;
+}
+
+nav ul a {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: rgb(252, 246, 160);
+    text-decoration: underline;
+}
+
+li {
+    padding: 0 20px;
+    list-style: none;
+    display: inline;
+}
